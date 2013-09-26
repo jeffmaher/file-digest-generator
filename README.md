@@ -1,6 +1,6 @@
 # file-digest-generator
 
-Creates checksum digests files for files within a given directory and stores them in *.(digest extension) files.
+Creates checksum digest files for files within a given directory and stores them in *.(digest extension) files.
 
 Only sha1 is currently implemented.
 
@@ -19,7 +19,7 @@ JAR is now in the `target` directory.
 
 ## Example
 
-`javar -jar jeffsbox.net.digest.GenerateDigestFiles sha1 /some/dir`
+`java -jar jeffsbox.net.digest.GenerateDigestFiles sha1 /some/dir`
 
 ### Contents of `/some/dir`
 
