@@ -15,11 +15,11 @@ JAR is now in the `target` directory.
 
 ## Run Instructions
 
-`java -jar jeffsbox.net.digest.GenerateDigestFiles <digest algorithm> <directory containing files>`
+`java -jar (JAR file path) <digest algorithm> <directory containing files>`
 
 ## Example
 
-`java -jar jeffsbox.net.digest.GenerateDigestFiles sha1 /some/dir`
+`java -jar file-digest-generator.jar sha1 /some/dir`
 
 ### Contents of `/some/dir`
 
